@@ -13,6 +13,8 @@ class Template {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("C:/Users/Michael Luo/Documents/Competitive Programming/output.txt")));
 		//Scanner s = new Scanner(new FileReader("Template.in"));
 		//PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("Template.out")));
-		out.close();                                
-	}
+		String ss = "2.3";
+		System.out.println(Integer.parseInteger(ss));
+        out.close();                                
+	}		
 }
