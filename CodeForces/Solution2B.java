@@ -10,6 +10,9 @@ public class Solution2B {
 		int[][] dpfive = new int[n][n];
 	}
 
+
+
+
 	public static int numtwos(int n){
 		int counter =0;
 		while(n%2==0){
